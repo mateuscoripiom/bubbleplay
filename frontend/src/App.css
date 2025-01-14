@@ -1,0 +1,40 @@
+
+.app {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #141414;
+  color: white;
+  min-height: 100vh;
+}
+
+.app-header {
+  padding: 20px;
+  background-color: #202020;
+  border-bottom: 2px solid #444;
+}
+
+.video-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  padding: 20px;
+}
+
+.video-item {
+  background: #333;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.video-item:hover {
+  transform: scale(1.05);
+  background: #444;
+}
+
+.video-player {
+  margin-top: 20px;
+}
+        
