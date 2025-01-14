@@ -31,7 +31,7 @@ const App = () => {
       {currentVideo && (
         <div className="video-player">
           <video controls autoPlay>
-            <source src={`http://localhost:3001${currentVideo}`} type="application/x-mpegURL" />
+            <source src={`http://localhost:44741${currentVideo}`} type="application/x-mpegURL" />
             Seu navegador não suporta reprodução de vídeo.
           </video>
         </div>
