@@ -6,7 +6,7 @@ const ffmpeg = require('fluent-ffmpeg');
 const path = require('path');
 
 const app = express();
-const PORT = 3001;
+const PORT = 44741;
 const videosDir = path.join(__dirname, 'videos'); // Diretório onde os vídeos .mkv estão armazenados
 
 app.use(cors());
