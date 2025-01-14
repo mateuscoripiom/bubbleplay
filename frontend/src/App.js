@@ -7,7 +7,7 @@ const App = () => {
   const [currentVideo, setCurrentVideo] = useState(null);
 
   useEffect(() => {
-    fetch('http://localhost:3001/api/videos')
+    fetch('http://localhost:44741/api/videos')
       .then((response) => response.json())
       .then((data) => setVideos(data));
   }, []);
